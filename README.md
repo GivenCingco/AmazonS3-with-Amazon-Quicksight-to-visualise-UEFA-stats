@@ -2,7 +2,7 @@
 
 ## Overview
 
-1. Get UEFA data from my ***[GitHub repository] (https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***
+1. Get UEFA data from my ***[GitHub repository](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***
 2. Store dataset into an Amazon S3 bucket.
 3. Connect the S3 bucket with QuickSight and create visualizations.
 
