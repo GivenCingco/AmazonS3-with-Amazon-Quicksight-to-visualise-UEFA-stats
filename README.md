@@ -2,12 +2,12 @@
 
 ## Overview
 
-1. Get UEFA data from my GitHub repository.
+1. Get UEFA data from my ***[GitHub repository] (https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***
 2. Store dataset into an Amazon S3 bucket.
 3. Connect the S3 bucket with QuickSight and create visualizations.
 
 ## Download files from GitHub
- Go to this GitHub link: https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats
+
 1. Download the dataset of UEFA results 2019-2020 CSV file.
    - Click on the `key_stats.csv` file.
    - Press the download button.
