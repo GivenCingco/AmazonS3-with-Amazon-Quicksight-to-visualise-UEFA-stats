@@ -8,9 +8,8 @@
 
 ## Download files from GitHub
 1. Navigate to my ***[GitHub repository](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***. Dataset originally taken from this website ***[https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league](https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league)***
-2. Store dataset into an Amazon S3 bucket.
-2. Download the dataset of UEFA results 2019-2020 CSV file.
-   - Click on the `key_stats.csv` file.
+
+1. Click on the `key_stats.csv` file.
 
 
 
@@ -18,8 +17,12 @@
 
    - Press the download button.
    - Click `raw`
+
+![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 3](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/85239d7c-5409-4d1f-b53e-b3b15cca96e5)
+
+
    - Press `ctrl + s` to save into your downloads folder.
-2. Download the `manifest.json` file. We will use this file later for Quicksight to access the Amazon S3 bucket.
+2. Download the `manifest.json` file. We will use this file later for Quicksight to access the Amazon S3 bucket. To download the file click `manifest.json` file and follow the same guidelines you used to download the `key_stats.csv`.
    
 
 ## Set up S3 bucket
