@@ -38,11 +38,18 @@
    - Keep the rest of setting as default and select "Create".
 6. Click on the bucket you just created.
 
+
+
 ![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 10](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/3101a699-f541-4aa2-a72b-e23b7ee7a83a)
 
 
 7. Open up the `manifest.json` file on your IDE of choice.
+
+
+
 ![Screenshot 2023-05-08 at 17 35 44](https://user-images.githubusercontent.com/50238769/236867065-781e4149-86e6-46d8-84a2-6f10d8f769eb.png)
+
+
 
    - Under URIs, change and put your bucket name.
 8. Upload the `manifest file` after saving your changes. Also upload the `key_stats.csv` file.
