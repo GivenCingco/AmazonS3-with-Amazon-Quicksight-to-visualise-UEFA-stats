@@ -2,14 +2,14 @@
 
 ## Overview
 
-1. Get UEFA data from my GitHub repository.
-2. Store dataset into an Amazon S3 bucket.
-3. Connect the S3 bucket with QuickSight and create visualizations.
+- Get UEFA data from my GitHub repository.
+- Store dataset into an Amazon S3 bucket.
+- Connect the S3 bucket with QuickSight and create visualizations.
 
 ## Download files from GitHub
 1. Navigate to my ***[GitHub repository](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***. Dataset originally taken from this website ***[https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league](https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league)***
 
-1. Click on the `key_stats.csv` file.
+2. Click on the `key_stats.csv` file.
 
 
 
@@ -22,30 +22,30 @@
 
 
    - Press `ctrl + s` to save into your downloads folder.
-2. Download the `manifest.json` file. We will use this file later for Quicksight to access the Amazon S3 bucket. To download the file click `manifest.json` file and follow the same guidelines you used to download the `key_stats.csv`.
+3. Download the `manifest.json` file. We will use this file later for Quicksight to access the Amazon S3 bucket. To download the file click `manifest.json` file and follow the same guidelines you used to download the `key_stats.csv`.
    
 
 ## Set up S3 bucket
 
-1. Go to the AWS management console and search for Amazon S3, then select it.
+4. Go to the AWS management console and search for Amazon S3, then select it.
 
 ![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 7](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/d1297b35-f1f4-457a-a919-266cd92c4d41)
 
 
-3. Click on the orange button with the text "Create bucket".
+5. Click on the orange button with the text "Create bucket".
    - Give it a name.
    - Click the "Bucket name" field and give it a globally unique name.
    - Keep the rest of setting as default and select "Create".
-4. Click on the bucket you just created.
+6. Click on the bucket you just created.
 
 ![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 10](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/3101a699-f541-4aa2-a72b-e23b7ee7a83a)
 
 
-6. Open up the `manifest.json` file on your IDE of choice.
+7. Open up the `manifest.json` file on your IDE of choice.
 ![Screenshot 2023-05-08 at 17 35 44](https://user-images.githubusercontent.com/50238769/236867065-781e4149-86e6-46d8-84a2-6f10d8f769eb.png)
 
    - Under URIs, change and put your bucket name.
-6. Upload the `manifest file` after saving your changes. Also upload the `key_stats.csv` file.
+8. Upload the `manifest file` after saving your changes. Also upload the `key_stats.csv` file.
 
 
 ![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 11](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/40a0f921-a924-445b-9131-4fbfc258f085)
