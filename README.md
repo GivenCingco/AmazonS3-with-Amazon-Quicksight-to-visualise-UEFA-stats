@@ -2,7 +2,7 @@
 
 ## Overview
 
-1. Get UEFA data from my ***[GitHub repository](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***
+1. Get UEFA data from my ***[GitHub repository](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats)***. Originally taken from this website ***[https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league](https://www.kaggle.com/datasets/azminetoushikwasi/ucl-202122-uefa-champions-league)***
 2. Store dataset into an Amazon S3 bucket.
 3. Connect the S3 bucket with QuickSight and create visualizations.
 
