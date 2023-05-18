@@ -52,7 +52,7 @@
 
 
    - Under URIs, change and put your bucket name.
-8. Upload the `manifest file` after saving your changes. Also upload the `key_stats.csv` file.
+8. Upload the `manifest file` after saving your changes. Also upload the `key_stats.csv` file in the same bucket.
 
 
 ![Unlocking the Power of Data Visualization_ A Step-by-Step Guide to Using Amazon S3 and QuickSight  - Step 11](https://github.com/GivenCingco/AmazonS3-with-Amazon-Quicksight-to-visualise-UEFA-stats/assets/50238769/40a0f921-a924-445b-9131-4fbfc258f085)
